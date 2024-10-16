@@ -3,30 +3,36 @@ body {
     font-family: "Arial Black", sans-serif;
     background-image: url('../static/thank_you-no-bg.png');
     background-position: top;
-    background-size: contain;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 5px;
     display: flex;
+    margin: 0;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    text-align: center;
 }
 
 .top-image {
-    width: 100%;
+    width: 100px;
     height: auto;
-    position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 100vh;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
-    margin-top: 300px;
+    margin-top: 40vh;
 }
 
-p {
+.p1 {
     color: black;
     font-size: 30px;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
+.p2 {
+    color: black;
+    font-size: 40px;
+    margin-top: 10vh;
+}
