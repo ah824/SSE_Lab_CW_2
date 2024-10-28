@@ -20,6 +20,7 @@ def process_query_query():
     q = request.args.get("q")
     return process_query(q)
 
+
 def process_query(q):
     if q == "dinosaurs":
         return "Dinosaurs ruled the Earth 200 million years ago"
